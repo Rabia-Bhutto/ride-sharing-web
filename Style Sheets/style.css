@@ -1,0 +1,111 @@
+/* Universal Selector */
+*
+{
+    overflow-x: hidden;
+    /* border: 1px solid black; */
+}
+
+body
+{
+    background-color: #f9f9f9;
+}
+
+/* Button in the navbar */
+.btn-color
+{
+    background-color: #75BF7A;
+    color: white;
+}
+
+/* To disable the hover class given by bootstrap */
+.btn-color:hover
+{
+    background-color: #75BF7A;
+    color: white;
+}
+
+/* Background color class */
+.bg-color
+{
+    background-color: #75BF7A;
+}
+
+/* Font color class */
+.f-color
+{
+    color: #75BF7A;
+}
+
+/* Input bar to submit the mobile number */
+.text-bar
+{
+    width: 450px;
+    height: 50px;
+}
+
+/* Mobile number input bar's button */
+.text-bar-btn
+{
+    width: 150px;
+    height: 50px;
+}
+
+
+/* Media Query to target small and medium sized screens together */
+@media screen and (max-width:992px)
+{
+
+    /* This class are added to the "h1" and "p" of the Hero Section */
+    .for-sm
+    {
+        width: 75% !important;
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* This class is added to the button of the input bar(for mobile number) */
+    .for-btn-sm
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Paragraph of the form */
+    .form-p
+    {
+        text-align: left !important;
+        font-size: 30px !important;
+    }
+
+    /* A class for the form */
+    .form
+    {
+        display: flex;
+        justify-content: center;
+    }
+/* A class for the elements of the form */
+    .form-elements
+    {
+        width: 80% !important;
+        /* margin-left: 20px; */
+        /* overflow: hidden; */
+    }
+
+    /* The input bar for the mobile number */
+    .text-bar
+    {
+        height: 70px;
+    }
+
+    /*  The input bar's button for the mobile number */
+    .text-bar-btn
+    {
+        height: 70px;
+    }
+}
