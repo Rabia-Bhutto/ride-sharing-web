@@ -1,6 +1,6 @@
 @font-face {
     font-family: gilroy;
-    src: url(Fonts/gilroy/Gilroy-Regular.ttf);
+    src: url('../Fonts/Gilroy-Regular.ttf');
 }
 
 /* Universal Selector */
@@ -12,7 +12,7 @@
 
 body
 {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
    font-family: gilroy;
 }
 
@@ -52,8 +52,20 @@ body
 /* Mobile number input bar's button */
 .text-bar-btn
 {
-    width: 150px;
+    width: 200px;
     height: 50px;
+}
+
+.num-img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.foot-btn
+{
+    width: 200px !important;
+   
 }
 
 
@@ -98,7 +110,7 @@ body
 /* A class for the elements of the form */
     .form-elements
     {
-        width: 80% !important;
+        /* width: 80% !important; */
         /* margin-left: 20px; */
         /* overflow: hidden; */
     }
@@ -113,5 +125,31 @@ body
     .text-bar-btn
     {
         height: 70px;
+        width: 450px;
+    }
+
+    .one-line
+    {
+        display: flex;
+    }
+
+    .media-width
+    {
+        width: 100% !important;
+    }
+
+    /* .phone
+    {
+        height: 300px !important;
+    } */
+
+    .index
+    {
+        z-index: -1 !important;
+    }
+
+    .bg
+    {
+        background-color: #f9f9f9 !important;
     }
 }
